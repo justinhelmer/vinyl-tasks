@@ -3,7 +3,7 @@
 
   module.exports = {
     create: require('./lib/create'),
-    pipeline: require('./lib/pipeline'),
-    filter: require('./lib/filter')
+    filter: require('./lib/filter'),
+    pipeline: require('./lib/pipeline')
   };
 })();
