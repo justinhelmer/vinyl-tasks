@@ -1,9 +1,6 @@
 # vinyl-tasks
 An opinionated task runner using vinyl adapters. Works with Gulp.
 
-# GitHub Release Manager
-Download releases, generate documentation, build website, deploy, relax.
-
 [![npm package](https://badge.fury.io/js/vinyl-tasks.svg)](https://www.npmjs.com/package/vinyl-tasks)
 [![node version](https://img.shields.io/node/v/vinyl-tasks.svg?style=flat)](http://nodejs.org/download/)
 [![dependency status](https://david-dm.org/justinhelmer/vinyl-tasks.svg)](https://github.com/justinhelmer/vinyl-tasks)
