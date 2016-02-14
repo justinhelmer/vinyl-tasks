@@ -1,0 +1,53 @@
+{
+  "name": "vinyl-tasks",
+  "version": "0.0.0",
+  "description": "An opinionated task runner using vinyl adapters. Works with Gulp.",
+  "keywords": [
+    "vinyl",
+    "gulp",
+    "task",
+    "runner",
+    "promises",
+    "orchestrator"
+  ],
+  "homepage": "https://github.com/justinhelmer/vinyl-tasks",
+  "bugs": {
+    "url": "https://github.com/justinhelmer/vinyl-tasks/issues",
+    "email": "jhelmer25@gmail.com"
+  },
+  "license": "MIT",
+  "author": "Justin Helmer jhelmer25@gmail.com",
+  "files": [
+    "lib"
+  ],
+  "main": "./index.js",
+  "scripts": {
+    "coverage": "istanbul cover _mocha --report lcovonly -- --colors -R dot && istanbul-coveralls",
+    "test": "mocha --colors"
+  },
+  "repository": "justinhelmer/vinyl-tasks",
+  "engines": {
+    "node": ">=0.12"
+  },
+  "devDependencies": {
+    "chai": "^3.5.0",
+    "coveralls": "^2.11.6",
+    "eslint": "^2.0.0",
+    "eslint-config-google": "justinhelmer/eslint-config-google",
+    "eslint-plugin-mocha": "^2.0.0",
+    "istanbul": "^0.4.2",
+    "istanbul-coveralls": "^1.0.3",
+    "mocha": "^2.4.5",
+    "sinon": "^1.17.3"
+  },
+  "dependencies": {
+    "bluebird": "^3.3.1",
+    "chalk": "^1.1.1",
+    "gulp-filter": "^3.0.1",
+    "gulp-plumber": "^1.1.0",
+    "is-promise": "^2.1.0",
+    "lodash": "^4.3.0",
+    "orchestrator": "^0.3.7",
+    "vinyl-fs": "^2.3.1"
+  }
+}
