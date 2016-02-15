@@ -3,6 +3,8 @@ A `JavaScript` task runner using [Orchestrator](https://github.com/robrich/orche
 
 [![npm package](https://badge.fury.io/js/vinyl-tasks.svg)](https://www.npmjs.com/package/vinyl-tasks)
 [![node version](https://img.shields.io/node/v/vinyl-tasks.svg?style=flat)](http://nodejs.org/download/)
+[![build status](https://travis-ci.org/justinhelmer/vinyl-tasks.svg?branch=master)](https://travis-ci.org/justinhelmer/vinyl-tasks/)
+[![coverage status](https://coveralls.io/repos/github/justinhelmer/vinyl-tasks/badge.svg?branch=master)](https://coveralls.io/github/justinhelmer/vinyl-tasks?branch=master)
 [![dependency status](https://david-dm.org/justinhelmer/vinyl-tasks.svg)](https://github.com/justinhelmer/vinyl-tasks)
 [![contributions welcome](https://img.shields.io/badge/contributions-welcome-brightgreen.svg?style=flat)](https://github.com/justinhelmer/vinyl-tasks/issues)
 [![devDependency status](https://david-dm.org/justinhelmer/vinyl-tasks/dev-status.svg)](https://github.com/justinhelmer/vinyl-tasks)
