@@ -1,6 +1,6 @@
 {
   "name": "vinyl-tasks",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "A JavaScript task runner using Orchestrator and Vinyl adapters. Works with Gulp.",
   "keywords": [
     "vinyl",
