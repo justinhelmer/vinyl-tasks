@@ -9,9 +9,9 @@ A `JavaScript` task runner using [Orchestrator](https://github.com/robrich/orche
 
 Anyone who has used [Gulp](http://gulpjs.com/) knows of its power.
 
-The truth is, `Gulp` is merely a wrapper around other libraries. The _real_ power lies in the [vinyl](https://github.com/gulpjs/vinyl-fs) filesystem adapter (which happens to have also been written by the [gulpjs](https://github.com/gulpjs) organization).
+The truth is, `Gulp` is merely a wrapper around other libraries. The _real_ power lies in the [Vinyl](https://github.com/gulpjs/vinyl-fs) filesystem adapter (which happens to have also been written by the [Gulp Organization](https://github.com/gulpjs)).
 
-When combined with [orchestrator](https://github.com/robrich/orchestrator) to run tasks in maximum concurrency and manage events, some amazing things can be accomplished.
+When combined with [Orchestrator](https://github.com/robrich/orchestrator) to run tasks in maximum concurrency and manage events, some amazing things can be accomplished.
 
 However, `Gulp` also comes with its share of limitations. Most importantly, there is no supported `node JS` interface. `Gulp` expects to be installed _globally_, and run via the `CLI`. This can be a _huge_ limitation when developing robust automation workflows.
 
@@ -21,7 +21,7 @@ Although some limitations will be addressed in [Gulp 4](https://github.com/gulpj
 
 As an alternative to `Gulp`, in an attempt to address some of the current limitations, `vinyl-tasks` was created. It supports everything `Gulp` supports, in a simplified interface with enhanced functionality.
 
-Also, `vinyl-streams` is built on the same foundation and thus, the [learning curve](#transitioning-from-gulp) is a breeze.
+Also, `vinyl-tasks` is built on the same foundation and thus, the [learning curve](#transitioning-from-gulp) is a breeze.
 
 ## Installation
 
@@ -31,7 +31,7 @@ $ npm install --save-dev vinyl-tasks
 
 ## Usage
 
-The `vinyl-tasks` interface consists of three main methods:
+The `vinyl-tasks` interface consists of **three** main methods:
 
 1. [create(task)](#createtask)
 2. [filter(filterName, pattern, options)](#filterfiltername-pattern-options)
@@ -347,6 +347,8 @@ When using the `task runner` returned by [create](#createtask), or when using th
 > _{*}_ - Show more output. Can be `true`, `false`, or a _{Number}_ indicating the _verbosity level_. The higher the level, the more output is displayed.
 
 ## Transitioning from Gulp
+
+<p align="center"><img width="100px" src"https://raw.githubusercontent.com/gulpjs/artwork/master/gulp-2x.png" /></p>
 
 To reiterate, [Gulp](http://gulpjs.com/) is a thin layer around [vinyl-fs](https://github.com/gulpjs/vinyl-fs) and [orchestrator](https://github.com/robrich/orchestrator).
 
