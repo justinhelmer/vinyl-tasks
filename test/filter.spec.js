@@ -26,6 +26,7 @@
 
     afterEach(function() {
       sandbox.restore();
+      requireSubvert.cleanUp();
     });
 
     it('should return a function', function() {

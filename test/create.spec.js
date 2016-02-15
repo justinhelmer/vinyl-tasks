@@ -42,6 +42,7 @@
 
     afterEach(function() {
       sandbox.restore();
+      requireSubvert.cleanUp();
       taskList.length = 0;
     });
 
