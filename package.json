@@ -32,13 +32,16 @@
   "devDependencies": {
     "chai": "^3.5.0",
     "coveralls": "^2.11.6",
+    "dirty-chai": "^1.2.2",
     "eslint": "^2.0.0",
     "eslint-config-google": "justinhelmer/eslint-config-google",
     "eslint-plugin-mocha": "^2.0.0",
     "istanbul": "^0.4.2",
     "istanbul-coveralls": "^1.0.3",
     "mocha": "^2.4.5",
-    "sinon": "^1.17.3"
+    "require-subvert": "^0.1.0",
+    "sinon": "^1.17.3",
+    "sinon-chai": "^2.8.0"
   },
   "dependencies": {
     "bluebird": "^3.3.1",
