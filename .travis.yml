@@ -5,3 +5,4 @@ node_js:
   - "0.12"
   - "iojs"
   - "stable"
+after_success: npm run coverage
