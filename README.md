@@ -15,11 +15,13 @@ The truth is, `Gulp` is merely a wrapper around other libraries. The _real_ powe
 
 When combined with [Orchestrator](https://github.com/robrich/orchestrator) to run tasks in maximum concurrency and manage events, some amazing things can be accomplished.
 
-However, `Gulp` also comes with its share of limitations. Most importantly, there is no supported `node JS` interface. `Gulp` expects to be run via the `CLI`. This can be a _huge_ limitation when developing robust automation workflows.
+However, `Gulp` also comes with its share of "limitations". Most importantly, there is no supported `node JS` interface. `Gulp` expects to be run via the `CLI`. This can be a _huge_ limitation when developing robust automation workflows.
 
 It is also very difficult to pass run-time options to `Gulp` tasks without manually parsing command-line options, and arguably _impossible_ to chain reusable streams in a single pipeline for maximum performance (at least out-of-the-box).
 
-Although some limitations will be addressed in [Gulp 4](https://github.com/gulpjs/gulp/milestones/gulp%204) (which will take on a new flavor), there will continue to be value in using `vinyl-tasks`. The `3.x` branch fo `Gulp` will remain tried and true, and the abundance of community-built [plugins](http://gulpjs.com/plugins/) will continue to work for both the `3.x` and `4.x` branches of `Gulp`.
+To be clear, `Gulp` does what it is supposed to extremely well. However, many people find the toolset limiting and would prefer a [promise](http://bluebirdjs.com/docs/getting-started.html)-based `JavaScrip` interface to build more robust automation workflows.
+
+Although some of people's concerns will be addressed in [Gulp 4](https://github.com/gulpjs/gulp/milestones/gulp%204) (which will take on a new flavor), there will continue to be value in using `vinyl-tasks`. The `3.x` branch fo `Gulp` will remain tried and true, and the abundance of community-built [plugins](http://gulpjs.com/plugins/) will continue to work for both the `3.x` and `4.x` branches of `Gulp`.
 
 > [vinyl-tasks](https://github.com/justinhelmer/vinyl-tasks) + [gulp plugins](http://gulpjs.com/plugins/) = `❤`
 
