@@ -1,5 +1,5 @@
 # vinyl-tasks
-An opinionated task runner using [vinyl](https://github.com/gulpjs/vinyl-fs) adapters. Works with [Gulp](http://gulpjs.com/).
+A `JavaScript` task runner using [Orchestrator](https://github.com/robrich/orchestrator) and [Vinyl](https://github.com/gulpjs/vinyl-fs) adapters. Works with [Gulp](http://gulpjs.com/).
 
 [![npm package](https://badge.fury.io/js/vinyl-tasks.svg)](https://www.npmjs.com/package/vinyl-tasks)
 [![node version](https://img.shields.io/node/v/vinyl-tasks.svg?style=flat)](http://nodejs.org/download/)

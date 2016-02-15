@@ -1,7 +1,7 @@
 {
   "name": "vinyl-tasks",
   "version": "0.1.3",
-  "description": "An opinionated task runner using vinyl adapters. Works with Gulp.",
+  "description": "A JavaScript task runner using Orcehstrator and Vinyl adapters. Works with Gulp.",
   "keywords": [
     "vinyl",
     "gulp",
