@@ -19,7 +19,9 @@ However, `Gulp` also comes with its share of limitations. Most importantly, ther
 
 It is also very difficult to pass run-time options to `Gulp` tasks without manually parsing command-line options, and arguably _impossible_ to chain reusable streams in a single pipeline for maximum performance (at least out-of-the-box).
 
-Although some limitations will be addressed in [Gulp 4](https://github.com/gulpjs/gulp/milestones/gulp%204) (which will take on a new flavor), the `3.x` branch will remain tried and true, and has an abundance of community-built [plugins](http://gulpjs.com/plugins/) that can be used to accomplish some truly remarkable things.
+Although some limitations will be addressed in [Gulp 4](https://github.com/gulpjs/gulp/milestones/gulp%204) (which will take on a new flavor), there will continue to be value in using `vinyl-tasks`. The `3.x` branch fo `Gulp` will remain tried and true, and the abundance of community-built [plugins](http://gulpjs.com/plugins/) will continue to work for both the `3.x` and `4.x` branches of `Gulp`.
+
+> [vinyl-tasks](https://github.com/justinhelmer/vinyl-tasks) + [gulp plugins](http://gulpjs.com/plugins/) = `❤`
 
 As an alternative to `Gulp`, in an attempt to address some of the current limitations, `vinyl-tasks` was created. It supports everything `Gulp` supports, in a simplified interface with enhanced functionality.
 
