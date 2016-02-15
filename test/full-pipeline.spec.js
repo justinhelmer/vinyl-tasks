@@ -19,7 +19,9 @@
       sandbox.stub(vfs, 'src').returns({pipe: pipe});
       plumber = sandbox.stub().returns('PLUMBER');
       requireSubvert.subvert('gulp-plumber', plumber);
+    });
 
+    beforeEach(function() {
       fullPipeline = requireSubvert.require('../lib/full-pipeline');
       result = fullPipeline();
     });

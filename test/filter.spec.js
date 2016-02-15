@@ -12,7 +12,7 @@
 
   describe('filter', function() {
     beforeEach(function() {
-      filterName = 'foo';
+      filterName = 'FILTER_NAME';
       pattern = 'PATTERN';
       options = {};
       sandbox = sinon.sandbox.create();
@@ -20,7 +20,9 @@
 
       gFilter = sandbox.stub().returns(filterResult);
       requireSubvert.subvert('gulp-filter', gFilter);
+    });
 
+    beforeEach(function() {
       filter = requireSubvert.require('../lib/filter');
     });
 

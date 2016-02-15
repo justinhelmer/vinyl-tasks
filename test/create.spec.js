@@ -18,7 +18,7 @@
 
     beforeEach(function() {
       sandbox = sinon.sandbox.create();
-      taskName = 'foo';
+      taskName = 'TASK_NAME';
 
       task = {
         name: taskName,
@@ -37,6 +37,9 @@
       requireSubvert.subvert('../lib/hooks', hooks);
       requireSubvert.subvert('../lib/runner', runner);
       requireSubvert.subvert('../lib/start', start);
+    });
+
+    beforeEach(function() {
       create = requireSubvert.require('../lib/create');
     });
 
@@ -49,7 +52,7 @@
     describe('creating the task', function() {
       it('should throw an error if the task is a non-object', function() {
         expect(create).to.throw('Invalid task: undefined');
-        expect(_.partial(create, 'foo')).to.throw('Invalid task: foo');
+        expect(_.partial(create, taskName)).to.throw('Invalid task: ' + taskName);
         expect(_.partial(create, [])).to.throw('Invalid task: ');
       });
 
