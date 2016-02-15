@@ -19,7 +19,7 @@ However, `Gulp` also comes with its share of "limitations". Most importantly, th
 
 It is also very difficult to pass run-time options to `Gulp` tasks without manually parsing command-line options, and arguably _impossible_ to chain reusable streams in a single pipeline for maximum performance (at least out-of-the-box).
 
-To be clear, `Gulp` does what it is supposed to extremely well. However, many people find the toolset limiting and would prefer a [promise](http://bluebirdjs.com/docs/getting-started.html)-based `JavaScrip` interface to build more robust automation workflows.
+To be clear, `Gulp` does what it is supposed to extremely well. However, many people find the toolset limiting and would prefer a promise-based (i.e. [Bluebird](http://bluebirdjs.com/docs/getting-started.html)) `JavaScript` interface to build more robust automation workflows.
 
 Although some of people's concerns will be addressed in [Gulp 4](https://github.com/gulpjs/gulp/milestones/gulp%204) (which will take on a new flavor), there will continue to be value in using `vinyl-tasks`. The `3.x` branch fo `Gulp` will remain tried and true, and the abundance of community-built [plugins](http://gulpjs.com/plugins/) will continue to work for both the `3.x` and `4.x` branches of `Gulp`.
 
